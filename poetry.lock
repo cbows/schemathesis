@@ -206,7 +206,7 @@ dotenv = ["python-dotenv"]
 
 [[package]]
 name = "graphene"
-version = "3.0b6"
+version = "3.0b7"
 description = "GraphQL Framework for Python"
 category = "dev"
 optional = false
@@ -269,7 +269,7 @@ resolved_reference = "e8f3a89a64d75e8668f5f4762b87d34a1840d926"
 
 [[package]]
 name = "hypothesis"
-version = "5.47.0"
+version = "6.0.2"
 description = "A library for property-based testing"
 category = "main"
 optional = false
@@ -297,7 +297,7 @@ zoneinfo = ["importlib-resources (>=3.3.0)", "backports.zoneinfo (>=0.2.1)", "tz
 
 [[package]]
 name = "hypothesis-graphql"
-version = "0.3.2"
+version = "0.3.3"
 description = "Hypothesis strategies for GraphQL schemas and queries"
 category = "main"
 optional = false
@@ -305,7 +305,7 @@ python-versions = ">=3.6,<4.0"
 
 [package.dependencies]
 graphql-core = ">=3.1.0,<4.0.0"
-hypothesis = ">=5.8.0,<6.0.0"
+hypothesis = ">5.8.0"
 
 [[package]]
 name = "hypothesis-jsonschema"
@@ -487,7 +487,7 @@ typing_extensions = ["typing-extensions (>=3.7.2)"]
 
 [[package]]
 name = "pygments"
-version = "2.7.3"
+version = "2.7.4"
 description = "Pygments is a syntax highlighting package written in Python."
 category = "dev"
 optional = false
@@ -659,7 +659,7 @@ python-versions = "*"
 
 [[package]]
 name = "sphinx"
-version = "3.4.2"
+version = "3.4.3"
 description = "Python documentation generator"
 category = "dev"
 optional = false
@@ -839,7 +839,7 @@ testing = ["pytest (>=3.5,<3.7.3 || >3.7.3)", "pytest-checkdocs (>=1.2.3)", "pyt
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.6"
-content-hash = "6df820b5b8f7a77192478e1a3e178707d030a35c19d098e3433ea0aea9850e41"
+content-hash = "3d22e3bd7899fb2ff44ff03e4b3e7a79bebff4e0dfab2c4e6c12b778a5cb86d3"
 
 [metadata.files]
 aiohttp = [
@@ -923,6 +923,7 @@ click = [
 ]
 colorama = [
     {file = "colorama-0.4.4-py2.py3-none-any.whl", hash = "sha256:9f47eda37229f68eee03b24b9748937c7dc3868f906e8ba69fbcbdd3bc5dc3e2"},
+    {file = "colorama-0.4.4.tar.gz", hash = "sha256:5941b2b48a20143d2267e95b1c2a7603ce057ee39fd88e7329b0c292aa16869b"},
 ]
 coverage = [
     {file = "coverage-5.3.1-cp27-cp27m-macosx_10_9_x86_64.whl", hash = "sha256:fabeeb121735d47d8eab8671b6b031ce08514c86b7ad8f7d5490a7b6dcd6267d"},
@@ -999,8 +1000,8 @@ flask = [
     {file = "Flask-1.1.2.tar.gz", hash = "sha256:4efa1ae2d7c9865af48986de8aeb8504bf32c7f3d6fdc9353d34b21f4b127060"},
 ]
 graphene = [
-    {file = "graphene-3.0b6-py2.py3-none-any.whl", hash = "sha256:11ff283e5eb67703880208af9480fbad80322409c0a6990daa785bf558c67b30"},
-    {file = "graphene-3.0b6.tar.gz", hash = "sha256:d33626657a7232a86249a253b0d53c94258262a0ccbe32dfe18100c5f660ce8d"},
+    {file = "graphene-3.0b7-py2.py3-none-any.whl", hash = "sha256:70293cd3cd301eb8ab69f43b18bff0223bbb458ed74904bd3dffa69f802bf6ef"},
+    {file = "graphene-3.0b7.tar.gz", hash = "sha256:03e1cb640ad48669eaf5a4228be216f7dce72b6ca3e9b1dd568e429001897642"},
 ]
 graphql-core = [
     {file = "graphql-core-3.1.2.tar.gz", hash = "sha256:c056424cbdaa0ff67446e4379772f43746bad50a44ec23d643b9bdcd052f5b3a"},
@@ -1012,12 +1013,12 @@ graphql-relay = [
 ]
 graphql-server-core = []
 hypothesis = [
-    {file = "hypothesis-5.47.0-py3-none-any.whl", hash = "sha256:c343282d67ee0efe5bdc2181e642941ffaf3a3c720d95b11c3e8c0a11d60325e"},
-    {file = "hypothesis-5.47.0.tar.gz", hash = "sha256:37990720e2894f99aee6ee870805190b772fa7d88478a3388aa100dece7dbeb1"},
+    {file = "hypothesis-6.0.2-py3-none-any.whl", hash = "sha256:58ecc8e368be95688d01b1dee788f5b1c1e3d0f31043dc19f014f241f40fa187"},
+    {file = "hypothesis-6.0.2.tar.gz", hash = "sha256:ae616551c8ebe897454e2de5183e325f6a109f70d45b7380154ed974ce8d4772"},
 ]
 hypothesis-graphql = [
-    {file = "hypothesis-graphql-0.3.2.tar.gz", hash = "sha256:b3f38d38e551719e39f571dfa257670cd675b693a7822215a16bbf8a4ee8fc04"},
-    {file = "hypothesis_graphql-0.3.2-py3-none-any.whl", hash = "sha256:2df47a94a58300318d95114fa87402a282a41b35d445cfd284caea94ed9f3eb2"},
+    {file = "hypothesis-graphql-0.3.3.tar.gz", hash = "sha256:cebe2d1e2494a7e9c997a82373041a918e6023a8c63ee3363f828821796f8752"},
+    {file = "hypothesis_graphql-0.3.3-py3-none-any.whl", hash = "sha256:11e22c156dcf05f27df02c0c62d677457d11b12a091fd08c493d1326040754b0"},
 ]
 hypothesis-jsonschema = [
     {file = "hypothesis-jsonschema-0.19.0.tar.gz", hash = "sha256:6b9daef08eb8d097d54fd69e37166ef0eebe63a88290162e82a97c2e571f9249"},
@@ -1168,8 +1169,8 @@ pydantic = [
     {file = "pydantic-1.7.3.tar.gz", hash = "sha256:213125b7e9e64713d16d988d10997dabc6a1f73f3991e1ff8e35ebb1409c7dc9"},
 ]
 pygments = [
-    {file = "Pygments-2.7.3-py3-none-any.whl", hash = "sha256:f275b6c0909e5dafd2d6269a656aa90fa58ebf4a74f8fcf9053195d226b24a08"},
-    {file = "Pygments-2.7.3.tar.gz", hash = "sha256:ccf3acacf3782cbed4a989426012f1c535c9a90d3a7fc3f16d231b9372d2b716"},
+    {file = "Pygments-2.7.4-py3-none-any.whl", hash = "sha256:bc9591213a8f0e0ca1a5e68a479b4887fdc3e75d0774e5c71c31920c427de435"},
+    {file = "Pygments-2.7.4.tar.gz", hash = "sha256:df49d09b498e83c1a73128295860250b0b7edd4c723a32e9bc0d295c7c2ec337"},
 ]
 pyparsing = [
     {file = "pyparsing-2.4.7-py2.py3-none-any.whl", hash = "sha256:ef9d7589ef3c200abe66653d3f1ab1033c3c419ae9b9bdb1240a85b024efc88b"},
@@ -1217,6 +1218,8 @@ pyyaml = [
     {file = "PyYAML-5.3.1-cp37-cp37m-win_amd64.whl", hash = "sha256:73f099454b799e05e5ab51423c7bcf361c58d3206fa7b0d555426b1f4d9a3eaf"},
     {file = "PyYAML-5.3.1-cp38-cp38-win32.whl", hash = "sha256:06a0d7ba600ce0b2d2fe2e78453a470b5a6e000a985dd4a4e54e436cc36b0e97"},
     {file = "PyYAML-5.3.1-cp38-cp38-win_amd64.whl", hash = "sha256:95f71d2af0ff4227885f7a6605c37fd53d3a106fcab511b8860ecca9fcf400ee"},
+    {file = "PyYAML-5.3.1-cp39-cp39-win32.whl", hash = "sha256:ad9c67312c84def58f3c04504727ca879cb0013b2517c85a9a253f0cb6380c0a"},
+    {file = "PyYAML-5.3.1-cp39-cp39-win_amd64.whl", hash = "sha256:6034f55dab5fea9e53f436aa68fa3ace2634918e8b5994d82f3621c04ff5ed2e"},
     {file = "PyYAML-5.3.1.tar.gz", hash = "sha256:b8eac752c5e14d3eca0e6dd9199cd627518cb5ec06add0de9d32baeee6fe645d"},
 ]
 requests = [
@@ -1236,8 +1239,8 @@ sortedcontainers = [
     {file = "sortedcontainers-2.3.0.tar.gz", hash = "sha256:59cc937650cf60d677c16775597c89a960658a09cf7c1a668f86e1e4464b10a1"},
 ]
 sphinx = [
-    {file = "Sphinx-3.4.2-py3-none-any.whl", hash = "sha256:b8aa4eb5502c53d3b5ca13a07abeedacd887f7770c198952fd5b9530d973e767"},
-    {file = "Sphinx-3.4.2.tar.gz", hash = "sha256:77dec5ac77ca46eee54f59cf477780f4fb23327b3339ef39c8471abb829c1285"},
+    {file = "Sphinx-3.4.3-py3-none-any.whl", hash = "sha256:c314c857e7cd47c856d2c5adff514ac2e6495f8b8e0f886a8a37e9305dfea0d8"},
+    {file = "Sphinx-3.4.3.tar.gz", hash = "sha256:41cad293f954f7d37f803d97eb184158cfd90f51195131e94875bc07cd08b93c"},
 ]
 sphinxcontrib-applehelp = [
     {file = "sphinxcontrib-applehelp-1.0.2.tar.gz", hash = "sha256:a072735ec80e7675e3f432fcae8610ecf509c5f1869d17e2eecff44389cdbc58"},

@@ -4,6 +4,10 @@ Changelog
 `Unreleased`_ - TBD
 -------------------
 
+**Added**
+
+- Support for Hypothesis 6. `#1013`_
+
 `3.0.1`_ - 2021-01-15
 ---------------------
 
@@ -1672,6 +1676,7 @@ Deprecated
 .. _0.3.0: https://github.com/schemathesis/schemathesis/compare/v0.2.0...v0.3.0
 .. _0.2.0: https://github.com/schemathesis/schemathesis/compare/v0.1.0...v0.2.0
 
+.. _#1013: https://github.com/schemathesis/schemathesis/issues/1013
 .. _#1010: https://github.com/schemathesis/schemathesis/issues/1010
 .. _#1007: https://github.com/schemathesis/schemathesis/issues/1007
 .. _#1003: https://github.com/schemathesis/schemathesis/issues/1003
